@@ -18,8 +18,10 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from Patient.views import PatientViewSet
+from Doctor.views import DoctorViewSet
 router = DefaultRouter()
 router.register(r"patients", PatientViewSet)
+router.register(r"doctors", DoctorViewSet)
 
 urlpatterns = [
     path("admin/",admin.site.urls),
