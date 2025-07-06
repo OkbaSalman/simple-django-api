@@ -6,6 +6,8 @@ Author: Hassan Balleh
 
 This project is a simple Django REST API for managing doctors and patients in a hospital context. It provides endpoints to create, read, update, and delete (CRUD) doctor and patient records, with filtering capabilities for availability and insurance status.
 
+You can find the Software Requirement Specification (SRS) [here](srs-and-diagrams.pdf)
+
 ## Features
 
 - Manage doctors: add, list, update, and delete doctors
